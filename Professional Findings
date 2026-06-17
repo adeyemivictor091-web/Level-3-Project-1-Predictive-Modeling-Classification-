@@ -1,0 +1,46 @@
+Findings and Insights
+1. Data Preprocessing and Feature Engineering
+The customer churn dataset was successfully prepared for predictive modeling through preprocessing techniques including categorical variable encoding and feature scaling. This ensured that all features contributed appropriately during model training and improved model performance.
+2. Classification Model Performance
+Three classification algorithms were trained and evaluated:
+•	Logistic Regression 
+•	Decision Tree Classifier 
+•	Random Forest Classifier 
+Model comparison showed that Random Forest achieved the highest predictive accuracy, outperforming both Logistic Regression and Decision Tree models.
+Model	Approximate Accuracy
+Logistic Regression	84%
+Decision Tree	90%
+Random Forest	95%
+The results demonstrate that ensemble learning techniques such as Random Forest can capture complex relationships within customer behavior data more effectively than single-model approaches.
+3. Confusion Matrix Analysis
+The optimized Random Forest model correctly classified the majority of customers.
+Actual / Predicted	Not Churn	Churn
+Not Churn	454	2
+Churn	24	54
+Key observations:
+•	Only 2 non-churning customers were incorrectly predicted as churners. 
+•	The model correctly identified 54 customers who actually churned. 
+•	False positives were extremely low. 
+•	The model achieved strong classification performance while maintaining balanced prediction capability. 
+This level of performance is highly valuable in customer retention initiatives because it enables businesses to identify potential churners with high confidence.
+4. Feature Importance Analysis
+Feature importance analysis revealed the most influential variables driving customer churn predictions:
+1.	Total Day Minutes 
+2.	Total Day Charge 
+3.	Customer Service Calls 
+4.	International Plan 
+5.	Total Evening Charge 
+6.	Total Evening Minutes 
+7.	Total International Calls 
+8.	Total International Minutes 
+9.	Total International Charge 
+10.	Total Night Minutes 
+These findings suggest that customer usage behaviour and interactions with customer support are major indicators of churn risk.
+5. Business Insights
+The analysis indicates that customers with higher daytime usage, higher charges, frequent customer service interactions, and international service subscriptions exhibit a greater likelihood of churning.
+Organisations can leverage these insights to:
+•	Improve customer retention strategies. 
+•	Proactively engage high-risk customers. 
+•	Reduce churn-related revenue loss. 
+•	Enhance customer service experiences.
+
