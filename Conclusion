@@ -1,0 +1,9 @@
+This project successfully developed and evaluated multiple classification models to predict customer churn using historical telecommunications customer data.
+
+The dataset was preprocessed through categorical encoding and feature scaling before training Logistic Regression, Decision Tree, and Random Forest classifiers. Model performance was evaluated using standard classification metrics, and hyperparameter tuning was performed to optimise predictive performance.
+
+Among the evaluated models, Random Forest emerged as the best-performing algorithm, achieving approximately 95% prediction accuracy and demonstrating superior classification capability. The confusion matrix confirmed the model's effectiveness in correctly identifying both churn and non-churn customers while minimising classification errors.
+
+Feature importance analysis further revealed that customer usage patterns, billing-related metrics, and customer service interactions are the strongest drivers of churn behaviour.
+
+Overall, the project demonstrates the practical application of machine learning techniques in customer retention analytics and highlights how predictive modelling can support data-driven decision-making. The developed model provides a valuable framework for identifying at-risk customers and implementing proactive retention strategies.
